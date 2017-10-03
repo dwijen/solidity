@@ -4,6 +4,7 @@ Features:
  * Parser: Better error message for unexpected trailing comma in parameter lists.
  * Syntax Checker: Unary ``+`` is now a syntax error as experimental 0.5.0 feature.
  * Type Checker: Disallow non-pure constant state variables as experimental 0.5.0 feature.
+ * Type Checker: Require ``storage`` or ``memory`` keyword for local variables as experimental 0.5.0 feature.
 
 Bugfixes:
  * Parser: Fix source location of VariableDeclarationStatement.
